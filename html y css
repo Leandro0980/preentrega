@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Tech</title>
+
+  <style>
+
+    body{
+      margin:0;
+      font-family: Arial, sans-serif;
+      background-color:#f2f2f2;
+    }
+
+    header{
+      background-color: red;
+      color:white;
+      text-align:center;
+      padding:20px;
+    }
+
+    nav{
+      background-color:#1d4ed8;
+      text-align:center;
+      padding:10px;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      margin:15px;
+      font-weight:bold;
+    }
+
+    main{
+      padding:20px;
+    }
+
+    h2{
+      text-align:center;
+    }
+
+    .productos{
+      display:flex;
+      justify-content:center;
+      gap:20px;
+      flex-wrap:wrap;
+    }
+
+    .tarjeta{
+      background-color:white;
+      width:200px;
+      padding:15px;
+      border-radius:10px;
+      text-align:center;
+    }
+
+    .icono{
+      font-size:60px;
+    }
+
+    button{
+      background-color: blue;
+      color:white;
+      border:none;
+      padding:10px;
+      border-radius:5px;
+      cursor:pointer;
+    }
+
+    footer{
+      background-color:red;
+      color:white;
+      text-align:center;
+      padding:15px;
+      margin-top:20px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Tienda Tech</h1>
+    <p>Productos de tecnología</p>
+  </header>
+
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#">Productos</a>
+    <a href="#">Contacto</a>
+  </nav>
+
+  <main>
+
+    <h2>Productos destacados</h2>
+
+    <section class="productos">
+
+      <div class="tarjeta">
+        <div class="icono">💻</div>
+
+        <h3>Notebook</h3>
+
+        <p>Ideal para estudiar y trabajar.</p>
+
+        <button>Comprar</button>
+      </div>
+
+      <div class="tarjeta">
+        <div class="icono">🎧</div>
+
+        <h3>Auriculares</h3>
+
+        <p>Excelente calidad de sonido.</p>
+
+        <button>Comprar</button>
+      </div>
+
+      <div class="tarjeta">
+        <div class="icono">📱</div>
+
+        <h3>Celular</h3>
+
+        <p>Gran cámara y batería.</p>
+
+        <button>Comprar</button>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Tienda Tech</p>
+  </footer>
+
+</body>
+</html>
